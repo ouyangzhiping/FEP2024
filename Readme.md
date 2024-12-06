@@ -16,7 +16,12 @@ DOI: https://doi.org/10.1016/j.jmp.2021.102632
 
 ## 目录结构
 
-`original_matlab_code/`: 包含论文中所附原始matlab代码
+`original_matlab_code/`: 包含论文中所附原始matlab代码。
+
+`spm`: 原始`spm`库（基于matlab开发，Github: https://github.com/spm/spm）的python版本。SPM(Statistical Parametric Mapping，统计参数映射)是指用于检验有关功能成像数据的假设的空间扩展统计过程的构建和评估。SPM软件包专为脑成像数据序列分析。SPM套件和相关理论最初由Karl Friston开发，用于对来自正电子发射断层扫描（PET）的功能神经影像学数据进行常规统计分析，当时他在医学研究委员会回旋加速器单元工作。该软件现在被称为SPMclassic，于1991年向新兴的功能成像社区推出，以促进实验室之间的协作和通用分析方案。
+由于本项目仅供演示项目使用，非科研用途，因此spm的python代码并未与其原始的matlab版本spm.m做严格对应，如果传入参数格式与示例不一致，可能会产生非预期结果，请留意。
+
+`utility`: 包含定制化数学计算函数。
 
 其他文件说明如下（翻译自原matlab脚本仓库README）：
 
